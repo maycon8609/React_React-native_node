@@ -1,7 +1,9 @@
 import React from 'react';
+import Calculadora from './pages/Calculadora'
+
 function App() {
   return (
-    <p>Hello Word....</p>
+    <Calculadora/>
   );
 }
 

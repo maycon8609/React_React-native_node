@@ -1,4 +1,5 @@
 import React from 'react'
+import './Style.css'
 import Visor from './Visor'
 import Teclado from './Teclado'
 

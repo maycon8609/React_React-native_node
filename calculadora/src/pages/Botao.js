@@ -1,4 +1,5 @@
 import React from 'react'
+import './Style.css'
 
 export default class Botao extends React.Component {
   render() {
