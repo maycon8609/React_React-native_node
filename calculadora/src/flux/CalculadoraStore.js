@@ -13,7 +13,7 @@ let _store = {
 class CalculadoraStore extends EventEmmiter {
 
   getValorDoDisplay() {
-    return _store, valorDoDisplay
+    return _store.valorDoDisplay
   }
 
   setValorDoDisplay(valor) {
@@ -59,5 +59,6 @@ class CalculadoraStore extends EventEmmiter {
 
 }
 
-export let calculadoraStore = new CalculadoraStore()
+let calculadoraStore = new CalculadoraStore();
+export default calculadoraStore
 window.calculadoraStore = calculadoraStore
