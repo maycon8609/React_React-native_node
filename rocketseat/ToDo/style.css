@@ -1,0 +1,31 @@
+section {
+    background-color: rgb(147, 102, 189);
+    padding: 10px;
+    width: 500px;
+    color: white;
+}
+
+li {
+    width: 400px;
+    list-style: none;
+    padding: 2px;
+}
+
+a {
+    text-decoration-line: none;
+    color: brown;
+}
+
+td {
+    padding: 5px;
+}
+
+td#td1 {
+    width: 350px;
+    background-color: rgb(100, 98, 98);
+}
+
+td#td2 {
+    width: 10px;
+    background-color: rgb(245, 170, 32);
+}
