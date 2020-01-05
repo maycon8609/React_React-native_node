@@ -20,8 +20,12 @@ export default class Calculadora extends React.Component {
   render() {
     return (
       <div id="calculadora">
-        <Visor valor={this.state.valorDoDisplay}/>
-        <Teclado />
+        <Visor valor={this.state.valorDoDisplay} />
+        <Teclado valorNaMemoria={this.state.resultadoUltimaOperacao}
+          operacaoAnterior={this.state.operacaoAritmetica}
+          valorVisor={this.state.valorDoDisplay}
+          limparNaProximaOperacao={this.state.limparVisor}
+          entradaDecimal={this.state.modoDeEntradaDecimal} />
       </div>
     )
   }
