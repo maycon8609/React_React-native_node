@@ -5,3 +5,5 @@
 3° mongoose ::
 
 4° axios ::
+
+5° cors
