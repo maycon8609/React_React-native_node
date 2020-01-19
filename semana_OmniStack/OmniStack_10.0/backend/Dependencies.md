@@ -6,4 +6,6 @@
 
 4° axios ::
 
-5° cors
+5° cors ::
+
+6° yarn add socket.io
