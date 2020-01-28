@@ -1,0 +1,28 @@
+.container{
+  box-sizing: border-box;
+  width: 350px;
+  height: 400px;
+  background: #fff;
+  margin: 40px;
+  border: 1px solid #ccc;
+}
+
+.container h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  color: #333;
+}
+
+.container img{
+  margin: 15px;
+  width: 300px;
+  height: 300px;
+}
+
+.container span{
+  display: flex;
+  justify-content: center;
+  color: #666;
+}
